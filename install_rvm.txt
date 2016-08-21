@@ -1,0 +1,7 @@
+                               install RVM
+                          (Ruby Version Manager)
+
+RVM is a powerful tool that have a control to versions of Rails, Ruby, and their gems.
+
+common to install RVM:
+    1) digit ""

@@ -1,0 +1,10 @@
+Please, type each codig-line in order to install tmate, but what is tmate:
+tmate is a tool to share you terminal with other computer, for example with 
+your friends or co-workers, too, tmate have other tool called tmux.
+
+Tmux help to open several windows in just a shell, Common to install:
+    digit "sudo apt-get install software-properties-common"
+    digit "sudo add-apt-repository ppa:tmate.io/archive"
+    digit "sudo apt-get update"
+    digit "sudo apt-get install tmate"
+already, congratulations, you have tmate and a version of tmux embed in your temate
