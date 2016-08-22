@@ -36,6 +36,10 @@ class Begin
     end
   end
   def install_postgres
+    File.foreach('install_postgresql.txt') do |line|
+      print line
+      gets.strip
+    end
   end
   def install_Mongo
   end

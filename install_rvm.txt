@@ -1,7 +1,8 @@
-                               install RVM
-                          (Ruby Version Manager)
+                                 install RVM
+                             (Ruby Version Manager)
 
 RVM is a powerful tool that have a control to versions of Rails, Ruby, and their gems.
 
 common to install RVM:
-    1) digit ""
+    1) digit "gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3"
+    2) digit "\curl -sSL https://get.rvm.io | bash -s stable --ruby"
