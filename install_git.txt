@@ -1,0 +1,21 @@
+                              Git
+                    (Version Control System)
+Also know as SCM(Source Code Management), Git is a System that keeps
+track of changes made to files, Git is ditributed Version Control
+System like Mercurial:
+- The full repo reside locally.
+- Contains full history of all the commits.
+- Server is (almost) not involved.
+Common to install Git:
+1) apt-get install git
+Configuration Git:
+1) git config --global color.ui true
+2) git config --global user.name "YOUR NAME"
+3) git config --global user.email "YOUR@EMAIL.com"
+4) ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com"
+5) The next step is to take the newly generated SSH key and add it to
+your Github account:
+ digit "cat ~/.ssh/id_rsa.pub"
+6) ssh -T git@github.com
+if you have: Hi excid3! You've successfully authenticated, but GitHub
+does not provide shell access.

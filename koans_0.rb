@@ -44,6 +44,10 @@ class Begin
   def install_Mongo
   end
   def install_git
+    File.foreach('install_git.txt') do |line|
+      print line
+      gets.strip
+    end
   end
   def options
     options = gets.chomp()
