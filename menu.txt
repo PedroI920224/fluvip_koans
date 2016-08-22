@@ -1,8 +1,9 @@
 To install follow the next steps:
-1) Install RVM.
-2) Istall tmate.
-3) Install rails.
-4) Install postgres.
-5) Install Mongo.
-6) Install Git.
+1) Install Curl.
+2) Install RVM.
+3) Istall tmate.
+4) Install rails.
+5) Install postgres.
+6) Install Mongo.
+7) Install Git.
 please, select typing some options

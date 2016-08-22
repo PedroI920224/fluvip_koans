@@ -1,0 +1,22 @@
+                         Postgres
+PostgreSQL, or Postgres, is a relational database management 
+system  that provides  an implementation of the SQL querying 
+language. It  is a popular  choice  for many small and large 
+projects and has the advantage of being  standards-compliant 
+and having many advanced features like reliable transactions 
+and concurrency without read locks. 
+
+Common to install Postgresql:
+1) digit "sudo apt-get update"
+2) digit "sudo apt-get install postgresql postgresql-contrib"
+
+Using Postgresql:
+The installation procedure created a user account called 
+postgres that is associated with the default Postgres role. 
+In order to use Postgres, we'll need to log into that account. 
+You can do that by typing:
+1) sudo -i -u postgres
+You can get a Postgres prompt immediately by typing:
+2) psql
+comand important when you update the server
+1) sudo service postgresql restart
